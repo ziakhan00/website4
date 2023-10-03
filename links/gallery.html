@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery-item {
+            max-width: 300px;
+            text-align: center;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .gallery-item figcaption {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Travel Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Place 1">
+                <figcaption>
+                    <strong>Location:</strong> City X, Country Y<br>
+                    <strong>Date:</strong> January 1, 2023<br>
+                    <strong>Details:</strong> A beautiful view of the city skyline at sunset.
+                </figcaption>
+            </div>
+            <!-- Repeat this structure for each image -->
+            <!-- Example for Image 2 -->
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Place 2">
+                <figcaption>
+                    <strong>Location:</strong> Beach Z, Country W<br>
+                    <strong>Date:</strong> July 15, 2022<br>
+                    <strong>Details:</strong> Relaxing on the sandy beach with crystal-clear waters.
+                </figcaption>
+            </div>
+            <!-- Repeat for the remaining images -->
+        </div>
+    </div>
+</body>
+</html>
